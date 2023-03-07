@@ -17,7 +17,7 @@ patches:
         - name: ACCOUNTS_NAMESPACES
           value: "product-catalog-pipeline=product-catalog-cicd"
         - name: ARGO_SERVER_HOST
-          value: "argocd-server-gitops.apps.home.ocplab.com"
+          value: "openshift-gitops-server-openshift-gitops.apps.ocp4.local"
   target:
     kind: Job
     name: create-pipeline-local-user
